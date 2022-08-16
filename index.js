@@ -36,12 +36,12 @@ function calculatesFarePrice(start, destination){
         return 0;
     }else{
         if(charges >=400 && charges <=2000){
-            return (charges - 400) *0.02
+            return (charges - 400) *0.02;
         }else{
             if(charges > 2000 && charges <=2500){
-                return 25
+                return 25;
             }else{
-                return 'cannot travel that far'
+                return 'cannot travel that far';
             }
         }
     }
